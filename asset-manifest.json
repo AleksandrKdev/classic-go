@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/classic-go/static/css/main.f855e6bc.css",
-    "main.js": "/classic-go/static/js/main.d096986a.js",
+    "main.css": "/classic-go/static/css/main.3f2ce003.css",
+    "main.js": "/classic-go/static/js/main.1438d10e.js",
     "static/js/453.bc0b1e8a.chunk.js": "/classic-go/static/js/453.bc0b1e8a.chunk.js",
-    "static/media/logo.svg": "/classic-go/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/screen2.svg": "/classic-go/static/media/screen2.c8f0ecf9ebc76d0806f4f09645c7861b.svg",
+    "static/media/screen1.svg": "/classic-go/static/media/screen1.0f1a26f6328cb9b2f2e5b32c94026199.svg",
+    "static/media/screen3.svg": "/classic-go/static/media/screen3.74e200db2ed0c563492dceb10fc55618.svg",
+    "static/media/grid1.svg": "/classic-go/static/media/grid1.ce17b801de9c5abbc99eda815fd8d54c.svg",
+    "static/media/app-store.svg": "/classic-go/static/media/app-store.42adebb5ad10a4175bcf243c8e91242f.svg",
     "index.html": "/classic-go/index.html",
-    "main.f855e6bc.css.map": "/classic-go/static/css/main.f855e6bc.css.map",
-    "main.d096986a.js.map": "/classic-go/static/js/main.d096986a.js.map",
+    "static/media/google-play.svg": "/classic-go/static/media/google-play.9fe5973b602e6c1b30fc1d8838087cbf.svg",
+    "main.3f2ce003.css.map": "/classic-go/static/css/main.3f2ce003.css.map",
+    "main.1438d10e.js.map": "/classic-go/static/js/main.1438d10e.js.map",
     "453.bc0b1e8a.chunk.js.map": "/classic-go/static/js/453.bc0b1e8a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.d096986a.js"
+    "static/css/main.3f2ce003.css",
+    "static/js/main.1438d10e.js"
   ]
 }
