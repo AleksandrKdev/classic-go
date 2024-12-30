@@ -2,26 +2,102 @@
   text-align: center;
 }
 
+.go {
+  font-family: 'Expletus Sans';
+  font-size: 277.5px;
+  color: white;
+}
+
+.classic {
+  font-family: 'Euphoria Script';
+  font-size: 208.13px;
+  color: #E8D698;
+}
+
+.text {
+  animation: slideText auto linear;
+	animation-timeline: scroll(root block);
+}
+
+.rules {
+  font-family: 'Inter';
+  font-size: 36px;
+  color: white;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.node-content {
+  display: flex;
+}
+
+.row {
+  display: flex;
+}
+
+.cc {
+  color: color;
+  background-color: color;
+  height: 5;
+  width: 30px;
+}
+
+.cc1 {
+  color: color;
+  background-color: color;
+  height: 5;
+  width: 30px;
+  transform: rotate(90deg);
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.node {
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+.grid {
+  height: 80vmin;
+  pointer-events: none;
+}
+
+.wrapper {
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	animation: slideGrid auto linear;
+	animation-timeline: scroll();
+}
+
+@media (min-width: 1200px) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #384029;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -35,4 +111,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@keyframes slideText {
+  25% {
+    transform: translate(-100%, 300%);
+    scale: 62%;
+  }
+    100% {
+      transform: translate(-100%, 300%);
+      scale: 62%;
+    }
+}
+
+@keyframes slideGrid {
+  0% {
+    transform: translate(300%, 5%);
+  }
+  25% {
+    transform: translate(140%, 5%);
+  }
+  100% {
+    transform: translate(140%, -200%);
+  }
+}
+
+@keyframes colorChange {
+	100% {
+		color: turquoise;
+	}
 }
