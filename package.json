@@ -1,6 +1,6 @@
 {
   "name": "classic-go",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://aleksandrkdev.github.io/classic-go/",
   "private": true,
   "dependencies": {
